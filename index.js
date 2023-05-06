@@ -1,16 +1,23 @@
 
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
-    let binario = "0"
-    if(!numero %2 === 0 ){
-        for (let i = 0; i < numero.length; i++) {
-            const element = array[i];
-            if(numero %2 === 0){
-                
-            }
-        }
+
+    let num=0;
+    if(numero%2 === 0) num = numero.toString(2)
+    else num = numero.toString(16)
+    return num
+
     }
+
+const Ivana = ()=>{
+    return {
+        nombre: 'Ivana',
+        edad: 45,
+        nacionalidad: 'Argentina'
     }
+}
+
+
 function nombre(nombre){
     let persona={
         nelson:nombre,
@@ -30,6 +37,7 @@ function mayLaMejor() {
     soy: "ella",
   };
 }
+
 
 
 
