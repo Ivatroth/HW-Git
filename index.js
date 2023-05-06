@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
     let binario = "0"
@@ -18,3 +19,17 @@ function nombre(nombre){
     }
     return persona;
 }
+
+
+
+function mayLaMejor() {
+  return {
+    nombre: "may",
+    edad: "30",
+    nacionalidad: "argentina",
+    soy: "ella",
+  };
+}
+
+
+
