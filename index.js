@@ -6,5 +6,13 @@ function laCajaDePandora(numero){
     }else{
         const hexadecimal = numero.toString(16)
         return hexadecimal
-    }
-    }
+    };
+    };
+
+    function felipe(){
+        return ({
+            nombre:'Felipe',
+            edad:24,
+            nacionalidad:'Argentino',
+        })
+    };
