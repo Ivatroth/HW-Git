@@ -5,3 +5,11 @@ function laCajaDePandora(numero) {
     return numero.toString(16);
   }
 }
+
+function mayLaMejor() {
+  return {
+    nombre: "may",
+    edad: "30",
+    nacionalidad: "argentina",
+  };
+}
