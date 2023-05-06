@@ -2,12 +2,24 @@
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
 
-    let num=0;
-    if(numero%2 === 0) num = numero.toString(2)
-    else num = numero.toString(16)
-    return num
+    if(numero%2===0){
+        let binario=numero.toString(2);
+        return binario
+    }else{
+        const hexadecimal = numero.toString(16)
+        return hexadecimal
+    };
+    };
 
-    }
+    function felipe(){
+        return ({
+            nombre:'Felipe',
+            edad:24,
+            nacionalidad:'Argentino',
+        })
+    };
+
+
 
 const Ivana = ()=>{
     return {
@@ -37,6 +49,7 @@ function mayLaMejor() {
     soy: "ella",
   };
 }
+
 
 
 
