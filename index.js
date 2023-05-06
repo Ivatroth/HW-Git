@@ -32,10 +32,14 @@ const Ivana = ()=>{
 
 function nombre(nombre){
     let persona={
-        nelson:nombre,
+        nombre:nombre,
         edad:36,
         nacionalidad:"Argentina"
     }
+
+}
+ //cambio
+
     return persona;
 }
 
@@ -49,6 +53,7 @@ function mayLaMejor() {
     soy: "ella",
   };
 }
+
 
 
 
